@@ -1,10 +1,12 @@
 # POMDP-assignment
 
-A representiation of a POMDP that is 3x4 size, represented as ....
-Given a set of observations, if there is 1 or 2 walls around it (or ends state), the actions to perform in the state space, as well as the
-initial state the agent is in, if there is one.
+A representiation of a POMDP that is 3x4 size, represented as <br />
+![statespace](https://github.com/habbybolan/POMDP-assignment/blob/master/statespace.png)
+<br />   
+where 6 states have 2 walls, 3 with 1 wall, and 2 terminal states with respective rewards +1 and -1 <br />
+Given a set of observations, if there is 1 or 2 walls around it (or ends state), the actions to perform in the state space, as well as the initial state the agent is in, if there is one.
 
-Calculates the agents belief state, or the probability of the state that it is in.
+Calculates the agents belief state, or the probability of the state that the agent would be in.
 
 actions (up,up,up) <br />
 observations (2,2,2) walls <br />
